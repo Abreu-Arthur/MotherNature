@@ -1,0 +1,112 @@
+body{
+    overflow: hidden;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#title{
+    font-size:30px;
+    color:#030
+}
+li{
+    display:inline;
+    margin-left: 20px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color:#030
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #030;
+}
+#cont{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#text{
+    width:500px;
+    text-align: center;
+    border:0px solid #000;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px #000;
+    transition: transform 0.5s;
+}
+#text:hover{
+    transform: scale(1.1);
+}
+#big{
+    font-size:30px;
+    font-weight: bold;
+}
+#desc{
+    font-size: 20px;
+}
+#img{
+    perspective: 1000px;
+    transition: transform 0.5s;
+}
+#img:hover{
+    transform: scaleX(1.1);
+}
+img{
+    height:500px;
+    width:550px;
+    transform: rotateY(45deg);
+    box-shadow: 5px 5px 30px #000;
+    border-radius: 20px;
+}
+#form{
+    perspective: 1000px;
+    transition: transform 0.5s;
+}
+#form:hover{
+    transform: scaleX(1.1);
+}
+#help{  
+    margin-right: 50px;
+    border:3px solid #030;
+    border-radius: 15px;
+    width:500px;
+    height:500px;
+    transform:rotateY(-45deg);
+    text-align: center;
+    box-shadow: 5px 5px 30px #000;
+}
+#give{
+    font-size: 30px;
+}
+label{
+    font-size:25px;
+    color:#030;
+    display: block;
+    margin-top:30px
+}
+#nome{
+    width:80%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top:5px;
+    border:3px solid #030
+}
+#submit{
+    width:80%;
+    height:60px;
+    border:3px solid #030;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 35px;
+    color:#fff;
+    background-color: #030;
+}
+#submit:hover{
+    color:#030;
+    background-color: #fff;
+}
